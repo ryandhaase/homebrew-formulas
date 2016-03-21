@@ -1,3 +1,5 @@
+require 'formula'
+
 class Elasticsearch15 < Formula
   homepage "https://www.elastic.co/products/elasticsearch"
   url "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.2.tar.gz"
