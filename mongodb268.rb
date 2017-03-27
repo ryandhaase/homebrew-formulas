@@ -47,7 +47,7 @@ class Mongodb268 < Formula
       -j#{ENV.make_jobs}
       --cc=#{ENV.cc}
       --cxx=#{ENV.cxx}
-      --osx-version-min=#{MacOS.version}
+      --osx-version-min=10.9
     ]
 
     # --full installs development headers and client library, not just binaries
