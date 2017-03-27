@@ -4,7 +4,7 @@ class Mongodb268 < Formula
   homepage "https://www.mongodb.org/"
 
   url "https://fastdl.mongodb.org/src/mongodb-src-r2.6.8.tar.gz"
-  sha1 "d67254ef3ba5ba81e21c56be9b919c3a10e01b32"
+  sha256 "1997f60d9de17320f22c604d8aa1cbe5f38d877142cd0e9130fe3dae7b311a06"
 
   bottle do
     sha1 "4b1749b645a744b38b4959daac46bf80353e3b32" => :yosemite
