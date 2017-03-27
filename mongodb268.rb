@@ -7,22 +7,21 @@ class Mongodb268 < Formula
   sha256 "1997f60d9de17320f22c604d8aa1cbe5f38d877142cd0e9130fe3dae7b311a06"
 
   bottle do
-    sha1 "4b1749b645a744b38b4959daac46bf80353e3b32" => :yosemite
-    sha1 "95725282b89443fafcdc0974e60b10bd295b48ee" => :mavericks
-    sha1 "2da546a136e48a5f9dc86287c329b5741b77bd14" => :mountain_lion
+#    sha1 "4b1749b645a744b38b4959daac46bf80353e3b32" => :yosemite
+#    sha1 "95725282b89443fafcdc0974e60b10bd295b48ee" => :mavericks
+#    sha1 "2da546a136e48a5f9dc86287c329b5741b77bd14" => :mountain_lion
   end
 
   devel do
     # This can't be bumped past 2.7.7 until we decide what to do with
     # https://github.com/Homebrew/homebrew/pull/33652
     url "https://fastdl.mongodb.org/src/mongodb-src-r2.7.7.tar.gz"
-    sha1 "ce223f5793bdf5b3e1420b0ede2f2403e9f94e5a"
-
+    sha256 "fce75a5be14c39c517f51408585ce02358d64f2bfe9a8980e19d3dcdf22995d4"
     # Remove this with the next devel release. Already merged in HEAD.
     # https://github.com/mongodb/mongo/commit/8b8e90fb
     patch do
       url "https://github.com/mongodb/mongo/commit/8b8e90fb.diff"
-      sha1 "9f9ce609c7692930976690cae68aa4fce1f8bca3"
+      sha256 "12af2a72d90cb566bd89c03745b0eebb6a0f4aab0b4923c701e95bff3eb6b5a7"
     end
   end
 
@@ -38,7 +37,7 @@ class Mongodb268 < Formula
   if MacOS.version == :yosemite
     patch do
       url "https://raw.githubusercontent.com/DomT4/scripts/fbc0cda/Homebrew_Resources/Mongodb/mongoyosemite.diff"
-      sha1 "f4824e93962154aad375eb29527b3137d07f358c"
+      sha25 "5eb3ff4ebcc90b3db7c1e9240a135660191f3a2dfbc678968cfa642c76dca758"
     end
   end
 
