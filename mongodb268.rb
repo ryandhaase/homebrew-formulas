@@ -1,6 +1,6 @@
 require "formula"
 
-class Mongodb26 < Formula
+class Mongodb268 < Formula
   homepage "https://www.mongodb.org/"
 
   url "https://fastdl.mongodb.org/src/mongodb-src-r2.6.8.tar.gz"
