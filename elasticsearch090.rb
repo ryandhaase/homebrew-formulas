@@ -59,7 +59,7 @@ class Elasticsearch090 < Formula
     (var/"lib/elasticsearch/plugins").mkpath
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
     Data:    #{var}/elasticsearch/#{cluster_name}/
     Logs:    #{var}/log/elasticsearch/#{cluster_name}.log
     Plugins: #{var}/lib/elasticsearch/plugins/
@@ -68,7 +68,7 @@ class Elasticsearch090 < Formula
 
   plist_options :manual => "elasticsearch --config=#{HOMEBREW_PREFIX}/opt/elasticsearch/config/elasticsearch.yml"
 
-  def plist; <<-EOS.undent
+  def plist; <<-EOS
       <?xml version="1.0" encoding="UTF-8"?>
       <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
       <plist version="1.0">
