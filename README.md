@@ -11,6 +11,4 @@ brew tap weblinc/homebrew-formulas
 brew install elasticsearch090
 brew install elasticsearch14
 brew install elasticsearch15
-brew install mongodb268
-brew install mongodb307
 ```
