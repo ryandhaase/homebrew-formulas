@@ -7,7 +7,7 @@
 
 ## Usage
 ```
-brew tap weblinc/homebrew-formulas
+brew tap ryandhaase/homebrew-formulas
 brew install elasticsearch090
 brew install elasticsearch14
 brew install elasticsearch15
